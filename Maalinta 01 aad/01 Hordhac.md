@@ -50,3 +50,21 @@ Tusaale hadaan rabno (Element-ga) leh (Class) ka `Header` hada siino labo astaan
 ```
 
 kor waxan ka argaan in labo maarn aan so cel celinay inaa waxa ka badalno qimaha midbada daaha gadaale marna aan ka dhgnay casaan marna aan ka dhignay blue, waxa yimid wareer ah labada qiimo kee la qadnaya ?
+
+### Comentes
+
+Comment waa qoraal lagu dhax qoro code walba oo aad qoryso si aad uso xasuusto, code kan waxa u qabnyo ama dadka kale ula wadagtid.
+Commentga waxa loogu talo galay dadka (Compiler) ku waa uu iska indha tirayaa ama ilaabaya in qoraalkaas uu (Run) greyo.
+
+```css
+/* Kani waa comment */
+```
+
+CSS marki lajoogo si aad comment uqrto waxa ka bilaabysa /\* si aad ugu shegto (Compiler) ka in meshan wixi kadanbeeya u kaboodo ilaa inta commentig laga so xirayo waana inaad so xirtaa
+
+```css
+.header {
+  /* waxaan ka dhigayna daaha gadaale midabkisa casaan ama gaduud */
+  background-color: red;
+}
+```
