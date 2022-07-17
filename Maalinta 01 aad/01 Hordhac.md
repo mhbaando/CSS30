@@ -64,7 +64,26 @@ CSS marki lajoogo si aad comment uqrto waxa ka bilaabysa /\* si aad ugu shegto (
 
 ```css
 .header {
-  /* waxaan ka dhigayna daaha gadaale midabkisa casaan ama gaduud */
-  background-color: red;
+  /* waxaan ka dhigayna midabka farta casaan ama gaduud */
+  color: red;
 }
 ```
+
+### Sharciyada @ (@ Rules)
+
+Sharciyada @ waa kuwa gaar ah kuwaas oo u dhaqam sida inay xukumaan gooyan go aan ka qataan Sharci gooni ah goorta uu dhaqan galayo.
+waa kuwaan qaar kamid ah Sharciga @
+
+- @charset: waxa uu qeexaa waxa lagu (encode) greyay xaruufta (Charracter)
+- @import: wuxuu so rogaa, galiyaa, xogaha kujirya (style) kale
+- @media: waxa u qexa waxa loyaqno `media query`
+- @keyframes: waxa u qexa `key frame` marka lajoogo (animation) ka CSS.
+
+### Sidee CSS Lo isticmaalaa
+
+waxa jira dhowr hanaan oo kala dugan kuwaso sahalya in CSS lagu isticmalao (HTML) ka.
+waxayna kala yihiin
+
+- inline style
+- Style Block
+- External Style sheet
