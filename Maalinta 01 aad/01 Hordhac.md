@@ -87,3 +87,57 @@ waxayna kala yihiin
 - inline style
 - Style Block
 - External Style sheet
+
+seddexdaas hanaan oo ana kor kuso shegay waa seddexda qaab ee CSS logu isticmaali karo HTML.
+
+### Inline Style
+
+waa (style) lagu qoro si toos ah (Element) ga larabo in wax (style) kiisa, (Inline Style) ku malahn Doorte (Selector) ama Qoys ka weyn (Curly Praces).
+
+```html
+<div style="background-color: red;">Hello world!</div>
+```
+
+sida aad ka aragto halkan (style) toos ayaa loo siyay (Element) waxaana lo yaqana `Attribute`
+Faa'idada u leyhy inline stylku waxa weye in aysan cid kale ka dulqaadin karin awooda sinte (Element) ga style laga badalo, hadii khilaaf u jirana mar walba asaga ayaa xoogga iska leh.
+
+### Block Style
+
+Sidoo kale sharciyada CSS ka si toos ah aya logu dhax qori karaa (File) ka (HTML) ka, waxan ugu qori karta qeybta (Head) ka ee (HTML) ka aya waxa ku darays (tag) lo yaqano (Style).
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Halkan Eeg -->
+    <style>
+      div {
+        background-color: red;
+      }
+    </style>
+    <!-- Dhamaadka Eeg -->
+  </head>
+  <body>
+    <div>Hello world!</div>
+  </body>
+</html>
+```
+
+sida kor ka aragtaan (Style) taagasa ayan ku dhaxqornay qeybtsa sare ee (headka) file ka (HTML) ka.
+
+### External style sheets
+
+ugu danbeyn Sharciyada CSS waxa lagu qori karaa file ugooni ah oo magaciisa uu ku dhumanyo `.css` kadbna si marjac ah (refrence) ayaa loogu qoraa madax hore ee filke (HTML) ka anagoo isticmaalyna (tag) lo yaqano `link`
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- sida tan loo go qoraa -->
+    <link rel="stylesheet" href="halka uyalo filka css" />
+  </head>
+  <body>
+    <div>Hello world!</div>
+  </body>
+</html>
+```
