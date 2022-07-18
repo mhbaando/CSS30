@@ -22,7 +22,7 @@ Tusaalaha kore waxa uu na tusaya sida loo badli jiray farta (Font) website ka in
 
 Hadaba CSS ka waxa laso jeediyay (porposal) Shir (conference) ka dhacay **Chicago** Sanadii **1994** kii, sandkaas sanadki ku xigayna waxaa Soo baxay hay'ad (organization) lagu magacaabo **World Wide Web Consortium (W3C)**, kadbna CSS waxay si rasmi ah usoo baxday sanaddi 1996 kii.
 
-### Qolfoof Dhismeedka CSS (Anatomy)
+## Qolfoof Dhismeedka CSS (Anatomy)
 
 CSS waxa ay ka koobantahay Sharciyo (Rules), Sharciyada CSS waxay beegsadaan (Target) (HTML Element) ga ayaga oo isticmaalaya waxa loo yaqaano Doorte (Selector) kaaso tilmaamaya ama shegaya (Element) ga larabo in Qurxudan (Style) lagu Dabaqo (Apply), Sidaan gadaal ka arki doonto waxaa jira dhowr nuu oo aan (Element) u dooran karno.
 
@@ -51,7 +51,7 @@ Tusaale hadaan rabno (Element-ga) leh (Class) ka `Header` hada siino labo astaan
 
 kor waxan ka argaan in labo maarn aan so cel celinay inaa waxa ka badalno qimaha midbada daaha gadaale marna aan ka dhgnay casaan marna aan ka dhignay blue, waxa yimid wareer ah labada qiimo kee la qadnaya ?
 
-### Comentes
+### Comments
 
 Comment waa qoraal lagu dhax qoro code walba oo aad qoryso si aad uso xasuusto, code kan waxa u qabnyo ama dadka kale ula wadagtid.
 Commentga waxa loogu talo galay dadka (Compiler) ku waa uu iska indha tirayaa ama ilaabaya in qoraalkaas uu (Run) greyo.
@@ -79,7 +79,7 @@ waa kuwaan qaar kamid ah Sharciga @
 - @media: waxa u qexa waxa loyaqno `media query`
 - @keyframes: waxa u qexa `key frame` marka lajoogo (animation) ka CSS.
 
-### Sidee CSS Lo isticmaalaa
+## Sidee CSS Lo isticmaalaa
 
 waxa jira dhowr hanaan oo kala dugan kuwaso sahalya in CSS lagu isticmalao (HTML) ka.
 waxayna kala yihiin
