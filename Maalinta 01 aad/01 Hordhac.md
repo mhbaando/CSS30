@@ -211,3 +211,59 @@ Waxyaabaha ay kusoo dareen (Preprocessors) kan CSS waxa ka mid ah
 hadda aan aragno sida (Browserka) uu u fuliyo xeynta astaamaha ee aan qorno
 
 ### Document Object Model (DOM)
+
+DOM waa hanaanka (Browserka) wa qaab dhismeedka (browserka) udhiso xogta uso muqanysa isticmaalaha (User), waa hanaan sida geed ka oo kale ah kaaso ka turjumaya kala sareynta iyo qaab dhismeedka (Element)yada HTML ka.
+
+Geedka (DOM) ka waxa uu ka koobanyahy (DOM of Nodes), DOM ka waxa laga abuura marka uu browserka so aqrinayo (HTML Marka up) ka
+tusaale
+
+```html
+<html>
+  <body>
+    <h1>Hello World</h1>
+    <div>
+      <h2>Subtitle</h2>
+      <p>Hello world!</p>
+    </div>
+  </body>
+</html>
+```
+
+HTML ka kor idinkaga muuqdo waxa loo badlaa sida tan.
+
+<img src="../Sawirada/02.png" alt="Sawirka DOM">
+
+(Elementska) HTML ka waxa ay isku dhax galeen sida ay code ahan isugu dhaxjiraan, Qarkood ayaa waalid ah qaar ka kalena wa caruur ku dhax jirta walidka hoostisa, sidaa ayaa HTML code ka aad qortay aya browswrka uu ugu turjmaa HTML DOM.
+
+CSS kan si lamid ah HTMl aya asna Sida Geedka DOM loogu turjumaa.
+
+```css
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 1.5rem;
+  color: orangered;
+}
+div {
+  padding: 1rem;
+}
+div h2 {
+  font-size: 1.2rem;
+  color: blue;
+}
+div p {
+  font-size: 0.9rem;
+  color: gray;
+}
+```
+
+sidata ayuu Noqnaya waxaan loo yaqaana geedka **CSSOM**
+<img src="../Sawirada/03.png" alt="geedka CSSOM">
+
+hadaba browserka waxa uu isku daryaa labadaas geed DOM, waxa uuna kasamynaya hal geed oo loyqano **Render Tree**
+<img src="../Sawirada/04.png" alt="render treee">
+
+markii uu browserka abuuro geedka HTML iyo CSS oo isku jira waxa uu bilaabayaa browserka in uu isku aadiyo (Element) yada kuna so bandhigo safaxda cad ee browserka u leyahay, inta uu kuga jiro isku aadiska elemtyada waxa uu browserka aqrnya (Style) ELement walba u leyahay sida:- dhirirka, balaca, booska (position), firaaqada banaanka (margin), firaaqada gudaha (padding) si uu si sax ah ugu so badhigo (Element) walba iyo cabiradiisa oo saxiix ah.
+
+marki u dhameyo (Browserka) dhig dhigada (Elemnt) yada kadib waxa uu bilaabaya in uu rinjiyeyo macnaha midabeeyo asagoo ku dabbaqaya (Applying) (Style) ka ku xusan CSS ka.
