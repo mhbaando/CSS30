@@ -141,3 +141,73 @@ ugu danbeyn Sharciyada CSS waxa lagu qori karaa file ugooni ah oo magaciisa uu k
   </body>
 </html>
 ```
+
+## Ku haboonaanta Browserka
+
+(Browser Support) ku haboonaanta / taagerida browserka, dhamaan code ku dhax qoran repositorygaan waa ay taageryaan Browserska danbe oo casriga ah,
+maxaan ula jeedna taagerayaan ama ku haboonan ?
+code walba o CSS ah aan qorno waxa fuliya (browserka) barta aad internka ka isticmaasho, technologyga waa uu is bad badalaa wax cusub ayaa lagu so kordhiya sidaas darteed wa in aad hubisaa Astaamaha (Feature) in browserka uu sifcn u hergelin karo, fulin karo si si hagaagsan isticmaalaha mareegta uusan u helin mareeg jaban oo aan sidii logu talo galay ushaqeyneyn.
+
+`Sidee loo ogaada CSS ka aan isticmaalyo in uu hirgalin karo brwoserka ?`
+
+waxaa jiray dhowr mareeg oo kaa kaalmeynya in aad ogaato in CSS astaamihiis uu taagerayo ama fulin karo browserada danbe oo casriga ah.
+
+Mareegta lagu magacaabo [Can I Use](https://caniuse.com) waxay kaa taagerysaa inaad hubiso in astaamaha aad rabtid in fuliso in ay ku shaqynayaan browserka danbe.
+
+waxa kaloo jira mareegtan [Mozila Developer Network MDN](https://developer.mozilla.org) waxaa kujira (Document) habeesan oo qoran kaaso ku shegya astaan walba oo CSS ka kujirta waxa loo isticmaalo iyo sida loo isticmaalo iyo in (Browserka) uu taageerayo iyo in kale, fadaln so tijaabi.
+
+## CSS preprocessors
+
+wax walba marka Tech lajoogo waxa ay leyhin caqabado iyo xuduud aysan dhaafi karin CSS ka waxa u leyhy Xaduud (Limit),
+CSS preprocessors waxa kale maahan waa CSS caadiga ah aad taqaano oo lagu daray walxo, waxyaabo dheeri ah oo CSS aysan lahyn; kuwaaas waxa kamid `SASS, LESS, iyo Stylus`.
+Browserka caadiga ah mataageryo mana yaqan sida loo fuliyo, waxa aad ku qasbanthy inaa isticmaasho Qalab (Tools) u badalaya kuwaas CSS qaleel ah ama caadi ah, si uu (Browser) ka u fahmo una fuliyo.
+
+Waxyaabaha ay kusoo dareen (Preprocessors) kan CSS waxa ka mid ah
+
+- **Sharciga Is dhaxgalinta** (Nested Rule) shacigaan waxau qexyaan in (Element) yada aad is dhaxgalin karto (Style) kooda sida ay isugu dhax jiraan marka aad qoreysid (HTML) ka.
+
+  ```scss
+  .header {
+    background-color: red;
+
+    // sidaan baan isku dahx galin karnaa
+    h1 {
+      font-size: 24px;
+    }
+  }
+  ```
+
+- **Qeexida Doorsoome (Variable)** sida caadiga ah Doorsoomaha waxan u isticmaalnaa in aan ku keydino wax walba oo an soo cel celin lahyn, Sida CSS ka uqexo doorsomaha waxa ka ficn sida ay (preprocessors) u qeexaan.
+
+  ```scss
+  // Qeexida Doorsoomaha.
+  $header-color: red;
+
+  .header {
+    // sidatan ayaan u isticmaalnaa.
+    background-color: $header-color;
+  }
+  ```
+
+- **Dhafenayaal (Mixins)** Dhafenyashu waa sida (Function) luqadaha programminka waxaan ku keydsanynaa xeyn astaamo ah, kadibna waxan uga waceynaa meel walba oo aan uga bahanahay, sidoo kale waxan a wood ulenhay in aan udhiino doorsomayaal kale oo qimyaal kala dugan no haya.
+
+  ```scss
+  // sidatan baan uqexeynaa dhafanayaasha
+  @mixin flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  // sida tan baanu u isticmaalynaa
+  .header {
+    // san baa loogu wacaa dhafanaha.
+    @include flexbox;
+  }
+  ```
+
+## Sidee Browserka Ufuliyaa CSS ka.
+
+hadda aan aragno sida (Browserka) uu u fuliyo xeynta astaamaha ee aan qorno
+
+### Document Object Model (DOM)
