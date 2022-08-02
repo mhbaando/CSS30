@@ -68,3 +68,43 @@ si aan CSS ka ugu sheegno waxa aan ELement ga ku beegsanyno inu yahay class maga
 ```
 
 Code ka kore waxa uu no shegaya in ELement ga leh `.mainTitle` classkaas in aan siino xeyndaab xariiq ah cabirkeedu yahy `1px` midabkeeduna yahay `casaan`.
+
+### Doortaha Attribute ( Attribue Selectors)
+
+sidoo kale ELement yada HTML ka waxa ku dooran karna Attributes kooda qimahooda, Attributeka waxa lagu qeexa laba qoys dhexe dhaxadood `[Attribute]`, doortayaasha Attribute dhowr qaab bay nqdaan
+
+### [name]
+
+attribute kaan waxa uu doranayaa dhamaan elementyada leh attribute ka lyiarahdo [name] qimha attributekaas uu xanbaarsanyahy waa iska indha tireynaa,
+
+### [name="value"]
+
+Doortahaan waxa uu dooranyaan dhamaan elemtyda Attributkooda iyo qimahooda uu lamid yahay kuwa aan ku xusany kor.
+
+### [name~="value"]
+
+waxa uu dornayaan dhaman elemetyada attribute kooda ay ku jiraan space u dhaxeeyaha qimaha value,markii aan HTML Elementiga soo sineynay, tusaale.
+
+```html
+<h1 name="main heading"> Hello World</h1>
+```
+
+css ahaan waxan udoranynaa sida tan maadama uu space u dhaxeyo marka aan magacabeynay attribute ka
+
+```css
+[name~="heading"]
+```
+
+waxa uu dornaya elementga leh attribute magaciisu yahay `name` qiimahiisna waxa `heading` madaama uu sapace meel banaan oo faruq ah ay geesaha ka xigto.
+
+### [name*="value"]
+
+waxa uu doornaya Elementga qimahiisu waxa kamid ah ay la-egyhin qiimaha kore ee aan `name` siinay.
+
+### [name^="value"]
+
+waxa uu doranaya dhamaan elementyada qimaha attribute kooda u kabilowdo kan waxa ku dhax jira (" ") dhexdooda
+
+### [name$="value]
+
+waxa uu dooranaya dhamaan elemntyda qimaha attribute kooda uu ku dhamaado waxa ku dhaxjira (" ") dhaxdooda.
